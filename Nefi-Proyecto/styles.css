@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('https://raw.githubusercontent.com/bryborjes/ZbrySH/main/Pract11/src/CBTIS_FT%20(6).jpg'); /* Cambia 'fondo.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos específicos */
+.destacados, .eventos {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tecprog{
+    background-color: #310000c0;
+    color: white;
+    padding: 5px 0.4rem;
+}
+
+.tp{
+    background-color: darkgoldenrod;
+}

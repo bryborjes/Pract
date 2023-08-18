@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Escuela</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>CBTIS 254</h1>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="php/alumnos.php">Alumnos</a></li>
+                <li><a href="php/maestros.php">Maestros</a></li>
+                <li><a href="php/modulos.php">Modulos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="d-grid gap-2">
+            <!--MODAL-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ShowClubs">
+                Ver Clubs deportivos y de competencia
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="ShowClubs" tabindex="-1" aria-labelledby="ShowClubsLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ShowClubsLabel">CLUBS</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Clubs deportivos</h4>
+                            <p>Futbol [Varonil y Feminil].</p>
+                            <p>Basquetbol [Varonil y Feminil].</p>
+                            <p>Boleibol [Varonil y Feminil].</p>
+                            <p>Atletismo [Varonil y Feminil].</p>
+                            <h4>Clubs competitivos</h4>
+                            <p>Ajedrez</p>
+                            <p></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="destacados">
+            <h2 class="tp">Tecnico en Programación:</h2>
+            <p class="tecprog">
+                La carrera de Técnico en Programación ofrece las competencias profesionales necesarias para que el
+                estudiante pueda realizar diversas actividades relacionadas con el análisis, diseño, desarrollo,
+                instalación y mantenimiento de software de aplicación, teniendo en cuenta los requerimientos del
+                usuario. Estas competencias permiten al egresado incorporarse al mundo laboral o emprender proyectos
+                independientes de acuerdo con sus intereses y las necesidades de su entorno social. <br>
+                Además, esta carrera contribuye al desarrollo de competencias genéricas que les permiten comprender
+                y influir en el mundo, aprender de forma autónoma a lo largo de la vida, establecer relaciones
+                armoniosas y participar en los ámbitos social, profesional y político.
+            </p>
+        </section>
+
+        <section class="destacados">
+            <h2 class="tp">Tecnico en Logistica:</h2>
+            <p class="tecprog">
+                Un Técnico en Logística es un profesional capacitado para llevar a cabo diversas actividades
+                relacionadas con la gestión y control de la cadena de suministro en una organización. Su función
+                principal es asegurar la eficiencia en el movimiento de bienes, desde su origen hasta su destino
+                final. <br>
+                Las responsabilidades de un Técnico en Logística pueden incluir la planificación y coordinación de
+                actividades relacionadas con la adquisición, almacenamiento, transporte y distribución de productos.
+                Algunas de sus tareas específicas pueden ser: <br>
+                Gestión de inventario: Realizar un seguimiento y control de los niveles de existencias, garantizando
+                que los productos estén disponibles en el momento y lugar adecuados.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Noe. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
